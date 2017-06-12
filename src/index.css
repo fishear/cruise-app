@@ -1,0 +1,48 @@
+@import '~antd/dist/antd.css';
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.agent{
+	border: 1px solid #eee;
+	border-radius: 5px;
+	font-size: 14px;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+.hostname{
+	font-weight: bold;
+	margin-right: 20px;
+}
+.resourceItem{
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.itemName{
+	margin:0 5px;
+}
+.deleteIcon{
+	cursor: pointer;
+}
+.f-add{
+	display: inline-block;
+	text-decoration: underline;
+	margin-right: 5px;
+	cursor: pointer;
+}
+.list{
+	display: inline-block;
+}
+@media screen and (max-width: 768px){
+	.ant-menu-horizontal{
+		display: box;
+		display: -webkit-box;
+		overflow-x: scroll;
+	}
+	.ant-menu-horizontal > .ant-menu-item, .ant-menu-horizontal > .ant-menu-submenu{
+		float: none;
+	}
+}
